@@ -10,6 +10,16 @@ from nipype.interfaces import fsl
 from nibabel import load, Nifti1Image
 
 
+def get_orientation(infile,template,**kwargs):
+    pass
+    # to do
+
+    
+def apply_mask(or_warp_and_mask, facemask, template, **kwargs):
+    pass
+    # to do
+
+
 def initial_checks(template=None, facemask=None):
     """Initial sanity checks."""
     if template is None:
